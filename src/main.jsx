@@ -25,12 +25,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Header/>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="https://e-commerce-portfolio-site.netlify.app/product/:id" element={<ProductDetail />} />
-          <Route path="https://e-commerce-portfolio-site.netlify.app/register" element={<Register />} />
-          <Route path="https://e-commerce-portfolio-site.netlify.app/login" element={<Login />} />
-          <Route path="https://e-commerce-portfolio-site.netlify.app/cart" element={<Cart />} />
-          <Route path="https://e-commerce-portfolio-site.netlify.app/orders" element={<Orders />} />
-          <Route path="https://e-commerce-portfolio-site.netlify.app/user/:id" element={<DataUser />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/orders" element={<Orders />} />
+          <Route path="/user/:id" element={<DataUser />} />
           <Route path='*' element={<ErrorScreen />} />
         </Routes>
         <Footer/>
