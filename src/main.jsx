@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <Header/>
         <Routes>
-          <Route path="https://e-commerce-portfolio-site.netlify.app" element={<App />} />
+          <Route path="/" element={<App />} />
           <Route path="https://e-commerce-portfolio-site.netlify.app/product/:id" element={<ProductDetail />} />
           <Route path="https://e-commerce-portfolio-site.netlify.app/register" element={<Register />} />
           <Route path="https://e-commerce-portfolio-site.netlify.app/login" element={<Login />} />
